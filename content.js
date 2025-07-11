@@ -405,12 +405,12 @@ class Screen{
                 || (snake.length != 1 && snake.map(coords => JSON.stringify(coords)).slice(1, snake.length).includes(JSON.stringify(snake[0])))) {
 
                 clearInterval(timer);
-                this.runTextSlide('You died! Score: ' + count);
+                this.runTextSlide('You lose! Score: ' + count);
             } else {
                 this.screen[apple[0]][apple[1]].setLevel(3);
-                for (let link of snake) {
-                    if (link.length == 2) {
-                        this.screen[link[0]][link[1]].setLevel(4);
+                for (let i = 0; i < snake.length; i++) {
+                    if (snake[i].length == 2) {
+                        this.screen[snake[i][0]][snake[i][1]].setLevel(4 - i % 4);
                     }
                 }
             }
