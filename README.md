@@ -13,7 +13,7 @@ Play the classic Snake game right on a GitHub profile! This fun Chrome extension
 **Snake on GitHub Contributions** is a lightweight and playful Chrome extension that:
 
 - Turns any contribution graph into a playable Snake grid
-- Uses GitHub green squares as the "food
+- Uses GitHub green squares as the "food"
 - Lets you control the snake with arrow keys
 - Adds retro fun to your GitHub experience
 
