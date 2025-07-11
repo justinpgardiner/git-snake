@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="gitsnake.png" alt="git-snake" width="250"/>
+</div>
+
 # git-snake
 
 Play the classic Snake game right on a GitHub profile! This fun Chrome extension turns any contribution graph into a playground.
